@@ -2,11 +2,11 @@
 
 In this project two different data sets were combined and used ( www.thispersondoesnotexist.com & https://www.face-rec.org/databases/). 1000 pictures were labeled and fed into three different NN architecture.
 
-1.simple CNN with 3 Conv layers
+1.simple CNN with 3 Conv. layers
 
 2.VGG16 with loaded weights
 
-3.InceptionV3
+3.Transfer Learning using InceptionV3 model
 
 Here you can find the summary of the results from these three models. Also you can try your own pictures or capture pictures using your webcam (InceptionV3 used as a model)
 
@@ -19,6 +19,8 @@ Here you can find the summary of the results from these three models. Also you c
 | VGG16    | Expression      |   20 |19 |7  |55  |0.512 | 0.740     | 0.606 |0.742    |
 | InceptionV3    | Expression      |   32 |7 |18  |44  |0.82 | 0.64     | 0.720 |0.752    |
 
-We can see that F1-score and accuracy both increase as we move from simple CSS to more sophisticated models like VGG16 and ultimately InceptionV3 model.
+We can see that F1-score and accuracy both increase as we move from simple CNN to more sophisticated models like VGG16 and ultimately InceptionV3 model.
+
+
 
 
